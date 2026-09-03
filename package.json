@@ -1,0 +1,21 @@
+{
+  "name": "tasksk029",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "qa:production": "node qa/production.mjs"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "gsap": "latest",
+    "playwright": "latest"
+  },
+  "devDependencies": {}
+}
